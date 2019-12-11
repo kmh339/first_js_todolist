@@ -28,6 +28,7 @@ function paintToDo(text) {
   toDos.push(toDoObj);
   saveToDos();
 }
+//hi
 
 function handleSubmit(event) {
   event.preventDefault();
