@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello</title>
+    <title>Welcome to my world</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gupter:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .jb-large {
+        font-size: 32px;
+      }
+      .jb-x-large {
+        font-size: 64px;
+      }
+      .jb-xx-large {
+        font-size: 128px;
+      }
+      .centered {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .font-gupter {
+        font-family: "Gupter", serif;
+        font-size: 32px;
+      }
+    </style>
   </head>
-  <body>
-    <div class="js-clock">
+  <body class="font-gupter centered">
+    <div class="js-clock jb-x-large">
       <h1>00:00</h1>
     </div>
     <form class="js-form form">
       <input type="text" placeholder="What is your name?" />
     </form>
-    <h4 class="js-greetings greetings"></h4>
+    <h4 class="js-greetings jb-x-large greetings"></h4>
     <form class="js-toDoForm">
       <input type="text" placeholder="Write a to do" />
     </form>
-    <ul class="js-toDoList"></ul>
+    <ul class="js-toDoList jb-large"></ul>
     <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
