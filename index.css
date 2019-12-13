@@ -21,6 +21,17 @@ body {
   display: block;
 }
 
+.centered {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-gupter {
+  font-family: "Gupter", serif;
+  font-size: 32px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
